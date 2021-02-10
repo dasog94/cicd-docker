@@ -28,11 +28,11 @@ services:
     volumes:
       - /app/node_modules
       - ./backend:/app
-    environment: 
-      MYSQL_HOST: docker-fullstack-mysql.cubx3nn7qn4q.us-east-1.rds.amazonaws.com
-      MYSQL_USER: root 
-      MYSQL_ROOT_PASSWORD: y0ngjae777
-      MYSQL_DATABASE: myapp
+    environment:
+      MYSQL_HOST: final-private-db.cttz939fsks4.ap-northeast-2.rds.amazonaws.com
+      MYSQL_USER: admin 
+      MYSQL_ROOT_PASSWORD: qowlghd940524
+      MYSQL_DATABASE: final_db
       MYSQL_PORT: 3306
         
 #   mysql:
